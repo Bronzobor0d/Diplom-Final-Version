@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2846384916799371789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2846384916799371787}
+  - component: {fileID: 2846384916799371786}
+  - component: {fileID: 6311174935556952416}
+  - component: {fileID: 2846384915909040952}
+  - component: {fileID: 5477372508639281493}
+  - component: {fileID: 4589967535957119506}
+  - component: {fileID: 3200625632979588916}
+  - component: {fileID: 1040330546}
+  - component: {fileID: 1968826936711191640}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2846384916799371787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2846384916799371786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a83dbfd97335b4382d20cdbb55fe4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _money: {fileID: 0}
+  _editTower: {fileID: 2737569132476938849, guid: f21d1e3bf303e4344a62b6fad288c927,
+    type: 3}
+  _canvas: {fileID: 0}
+  _menus:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _panels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _photonView: {fileID: 1040330546}
+  SendWarriors: {fileID: 0}
+--- !u!114 &6311174935556952416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a2b9396130a27941bf8bfa784605a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2846384915909040952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b898ca9b174ed5d4ca1949b2025e2b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audio: {fileID: 0}
+  _sliderMusic: {fileID: 0}
+  _volumeMusicText: {fileID: 0}
+  _musics:
+  - {fileID: 8300000, guid: 5b95ec5469648f944a1b50768abb6564, type: 3}
+  - {fileID: 8300000, guid: b703467116f66884eaac73c9ff5a4688, type: 3}
+  - {fileID: 8300000, guid: b7821af767195ed489302ecde33fdedc, type: 3}
+  - {fileID: 8300000, guid: b1b66c8d1326291488561ca19b44c461, type: 3}
+  _saveVolumeKey: BG_MUSIC
+  _volume: 0.2
+--- !u!114 &5477372508639281493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328f2eed6f621b34aa4041852b7a7f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerBlue: {fileID: 2854343810099356254, guid: a18bf02def1cb3a489c76d3e3dda7261,
+    type: 3}
+  PlayerRed: {fileID: 8601944070622187913, guid: 6245bb5e1f4138049bdd9188d6263f96,
+    type: 3}
+  _spawnBlue: {x: -1.16, y: 2, z: -8.33}
+  _spawnRed: {x: -11.48, y: 2, z: 8.19}
+--- !u!114 &4589967535957119506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665a2d6ccfd01414f89911db01f746d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3200625632979588916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cde41b32e550be548b2143c57146d375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1040330546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &1968826936711191640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846384916799371789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70bdbcb980c8b7044b232f4740c159c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawnPointses:
+  - {fileID: 0}
+  - {fileID: 0}
+  _waypointses:
+  - {fileID: 0}
+  - {fileID: 0}
+  _enemyCastleHp: {fileID: 0}
+  _castleHP: {fileID: 0}
+  _castleHPScripts:
+  - {fileID: 0}
+  - {fileID: 0}
+  _hp: {fileID: 6140489988379252285, guid: 27ee1e652521a3f43bb3cd2c35b58ebf, type: 3}
+  _money: {fileID: 0}
+  _exp: {fileID: 0}
+  _canvas: {fileID: 0}
+  _costArmyText: {fileID: 0}
+  _allyWarriorColor: {r: 0, g: 1, b: 0.1764706, a: 1}
+  _timeToSendAgainText: {fileID: 0}
+  _sendButton: {fileID: 0}
+  Enemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  AlreadySendWarrior: []
+  AlreadyTakeWarrior: []
+  _warriorInterval: 0.5
+  _startTime: 0
+  _sendDelay: 14
+  CountAllWarrior: 0
+  CostArmy: 0

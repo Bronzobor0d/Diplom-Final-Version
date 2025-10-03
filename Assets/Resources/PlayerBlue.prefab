@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2854343810099356254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2854343810099356251}
+  - component: {fileID: 2854343810099356249}
+  m_Layer: 0
+  m_Name: PlayerBlue
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2854343810099356251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854343810099356254}
+  m_LocalRotation: {x: 0.1541367, y: -0.84585154, z: 0.36351135, w: 0.35865942}
+  m_LocalPosition: {x: -1.16, y: 2, z: -8.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 46.512, y: -134.044, z: 0}
+--- !u!114 &2854343810099356249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854343810099356254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf70996e7262bf4886be58a3e77a6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam_sens_rotate: 0
+  cam_sens_move: 0.4
+  cam_wheel: 10
+  _isBlue: 1
+  Player: {fileID: 2854343810099356254}
+  XCamPosPlus: 5
+  XCamPosMinus: -17
+  ZCamPosPlus: 12
+  ZCamPosMinus: -14
